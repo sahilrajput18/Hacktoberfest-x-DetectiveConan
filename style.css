@@ -48,6 +48,7 @@ body {
 .text .title {
     font-size: 50px;
     color: #fff;
+    display: flex;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
@@ -67,14 +68,20 @@ body {
     font-size: 40px;
     color: #fff;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
+    text-shadow: 2px 2px #ff0000;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.title1{
+    color: #ffe449;
+    margin-right: 10px;
 }
 
 .card {
     /* width: 1vw; */
     text-align: left;
+    background-color:rgba(249, 246, 246, 0.401);
     /* background-color: #3c4852; */
     padding: 20px;
     font-family: "Poppins", sans-serif;
@@ -85,7 +92,8 @@ body {
 
 .card h4 {
     color: #0f1011;
-    font-size: 20px;
+    font-size: 35px;
+    color: #dc2f2f;
     margin: 15px 0;
 }
 
@@ -108,6 +116,11 @@ ul li {
     position: relative;
 }
 
+.desc{
+    margin-right:24px;
+    font-weight: 300;
+    color:#1a244d;
+}
 ul li a {
     text-decoration: none;
     font-size: 20px;
@@ -211,7 +224,7 @@ ul li a {
     }
     
     .card h4 {
-        color: #0f1011;
+        color: #dc2f2f;
         font-size: 20px;
         color: aliceblue;
         margin: 10px 0;
