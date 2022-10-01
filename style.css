@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: url(images/bg.jpg);
-
+    background-attachment: fixed;
 }
 
 .nav {
@@ -115,4 +115,10 @@ ul li a {
     text-align: center;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+#ayumi {
+    width: 618px;
+    height: 139px;
+    margin-top: 19px;
 }
